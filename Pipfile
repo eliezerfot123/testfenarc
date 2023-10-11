@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flake8 = "*"
+black = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-swagger = "*"
+environs = "==9.5.0"
+ipdb = "*"
+flasgger = "*"
+uwsgi = "*"
+flask-script = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
